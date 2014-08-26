@@ -1,0 +1,14 @@
+inherit rubygem
+
+NAME="ruby-thread_safe"
+VERSION=0.3.4
+RELEASE=1
+CATEGORY="Ruby"
+SUMMARY="Ruby thread-safety library"
+DESCRIPTION="Thread-safe collections and utilities for Ruby"
+
+ARCH=noarch
+
+PKG_NAMES="${NAME} ${NAME}-doc"
+ruby_thread_safe_CONTENTS="--exclude=examples ${RUBYGEM_INSTDIR#/} ${RUBYGEM_SPEC#/}"
+ruby_thread_safe_doc_CONTENTS="${RUBYGEM_DOCDIR#/} ${RUBYGEM_INSTDIR#/}/examples/"
