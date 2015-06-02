@@ -1,7 +1,7 @@
 inherit rubygem
 
 NAME="ruby-thread_safe"
-VERSION=0.3.4
+VERSION=0.3.5
 RELEASE=1
 CATEGORY="Ruby"
 SUMMARY="Ruby thread-safety library"
